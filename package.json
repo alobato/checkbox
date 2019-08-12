@@ -1,0 +1,41 @@
+{
+  "name": "@alobato/checkbox",
+  "version": "1.0.0",
+  "description": "Checkbox react component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-file index.js"
+  },  
+  "repository": "github:alobato/checkbox",
+  "author": "alobato",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "react",
+    "checkbox"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "dependencies": {
+    "styled-components": "^4.3.2"
+  },
+  "bugs": {
+    "url": "https://github.com/alobato/checkbox/issues"
+  },
+  "homepage": "https://github.com/alobato/checkbox#readme"
+}
